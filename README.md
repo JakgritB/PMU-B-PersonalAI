@@ -13,6 +13,10 @@ This repository was created to learn Personal AI from the E-SAN Thailand Coding 
 | 5  | BiTNet: AI for diagnosing ultrasound image  | [Image Classification EfficientNetB5](https://github.com/JakgritB/PMU-B-PersonalAI/blob/main/05_BiTNet/PMUB_Personal_AI_Image_classification_EfficientNetB5_JakgritB.ipynb) | [Readme 5](https://github.com/JakgritB/PMU-B-PersonalAI/blob/main/05_BiTNet/README.md)|[Lecture 5](https://github.com/JakgritB/PMU-B-PersonalAI/tree/main/05_BiTNet/Note)|
 | 6 | AI for arresting criminals  | [Yolov8 Object Detection](https://github.com/JakgritB/PMU-B-PersonalAI/blob/main/06_Criminals/Train_Yolov8_Object_Detection_on_Custom_Dataset_JakgritB.ipynb) | [Readme 6](https://github.com/JakgritB/PMU-B-PersonalAI/blob/main/06_Criminals/README.md)|[Lecture 6](https://github.com/JakgritB/PMU-B-PersonalAI/blob/main/06_Criminals/ObjectDetection_Note.pdf)|
 
+## Introduce My Self
+
+[![YouTube Video](https://img.youtube.com/vi/hV4ZufH4KSw/0.jpg)](https://www.youtube.com/watch?v=hV4ZufH4KSw)
+
 
 
 ![PMU-B-PersonalAI](https://socialify.git.ci/JakgritB/PMU-B-PersonalAI/image?description=1&descriptionEditable=Personal%20AI%20from%20the%20E-SAN%20Thailand%20Coding%20%26%20AI%20Academy%20&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Dark)
