@@ -1,0 +1,521 @@
+2024-12-12 16:01:05 [INFO ] Load generated SIDs from sleepedf.txt
+2024-12-12 16:01:05 [INFO ] SIDs (20): [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+2024-12-12 16:01:05 [INFO ] ------ Fold 1/20 ------
+2024-12-12 16:01:05 [INFO ] Test SIDs: (1) [0]
+2024-12-12 16:01:07 [INFO ] Loaded model from out_sleepedf/train\0\best_model.ckpt
+2024-12-12 16:01:07 [INFO ] Subject ID: 0
+2024-12-12 16:01:07 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4001E0.npz ...
+2024-12-12 16:01:07 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4002E0.npz ...
+2024-12-12 16:01:07 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:07 [INFO ] (841, 1, 3000)
+2024-12-12 16:01:07 [INFO ] (1127, 1, 3000)
+2024-12-12 16:01:07 [INFO ] W: 371
+2024-12-12 16:01:07 [INFO ] N1: 117
+2024-12-12 16:01:07 [INFO ] N2: 623
+2024-12-12 16:01:07 [INFO ] N3: 517
+2024-12-12 16:01:07 [INFO ] REM: 340
+2024-12-12 16:01:10 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4001E0.npz
+2024-12-12 16:01:11 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4002E0.npz
+2024-12-12 16:01:11 [INFO ] n=1968, acc=60.9, mf1=45.4
+2024-12-12 16:01:11 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:11 [INFO ] [[216   0  90   0  65]
+ [  4   0 107   0   6]
+ [  2   0 614   7   0]
+ [ 23   0 156 338   0]
+ [  2   0 307   0  31]]
+2024-12-12 16:01:11 [INFO ] ------------------------
+2024-12-12 16:01:11 [INFO ] 
+2024-12-12 16:01:11 [INFO ] ------ Fold 2/20 ------
+2024-12-12 16:01:11 [INFO ] Test SIDs: (1) [1]
+2024-12-12 16:01:11 [INFO ] Loaded model from out_sleepedf/train\1\best_model.ckpt
+2024-12-12 16:01:11 [INFO ] Subject ID: 1
+2024-12-12 16:01:11 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4011E0.npz ...
+2024-12-12 16:01:11 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4012E0.npz ...
+2024-12-12 16:01:11 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:11 [INFO ] (1103, 1, 3000)
+2024-12-12 16:01:11 [INFO ] (2265, 1, 3000)
+2024-12-12 16:01:11 [INFO ] W: 1398
+2024-12-12 16:01:11 [INFO ] N1: 201
+2024-12-12 16:01:11 [INFO ] N2: 1222
+2024-12-12 16:01:11 [INFO ] N3: 201
+2024-12-12 16:01:11 [INFO ] REM: 346
+2024-12-12 16:01:12 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4011E0.npz
+2024-12-12 16:01:14 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4012E0.npz
+2024-12-12 16:01:14 [INFO ] n=3368, acc=73.0, mf1=44.2
+2024-12-12 16:01:14 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:14 [INFO ] [[1335    0    6    0   57]
+ [  39    0   31    0  131]
+ [ 290    0  855    0   77]
+ [ 201    0    0    0    0]
+ [  44    0   35    0  267]]
+2024-12-12 16:01:14 [INFO ] ------------------------
+2024-12-12 16:01:14 [INFO ] 
+2024-12-12 16:01:14 [INFO ] ------ Fold 3/20 ------
+2024-12-12 16:01:14 [INFO ] Test SIDs: (1) [2]
+2024-12-12 16:01:14 [INFO ] Loaded model from out_sleepedf/train\2\best_model.ckpt
+2024-12-12 16:01:14 [INFO ] Subject ID: 2
+2024-12-12 16:01:14 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4021E0.npz ...
+2024-12-12 16:01:14 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4022E0.npz ...
+2024-12-12 16:01:14 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:14 [INFO ] (1025, 1, 3000)
+2024-12-12 16:01:14 [INFO ] (1009, 1, 3000)
+2024-12-12 16:01:14 [INFO ] W: 253
+2024-12-12 16:01:14 [INFO ] N1: 278
+2024-12-12 16:01:14 [INFO ] N2: 947
+2024-12-12 16:01:14 [INFO ] N3: 214
+2024-12-12 16:01:14 [INFO ] REM: 342
+2024-12-12 16:01:15 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4021E0.npz
+2024-12-12 16:01:16 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4022E0.npz
+2024-12-12 16:01:16 [INFO ] n=2034, acc=48.3, mf1=32.0
+2024-12-12 16:01:16 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:16 [INFO ] [[200   0   2   0  51]
+ [ 79   0  33   0 166]
+ [334   0 528   0  85]
+ [214   0   0   0   0]
+ [ 38   0  50   0 254]]
+2024-12-12 16:01:16 [INFO ] ------------------------
+2024-12-12 16:01:16 [INFO ] 
+2024-12-12 16:01:16 [INFO ] ------ Fold 4/20 ------
+2024-12-12 16:01:16 [INFO ] Test SIDs: (1) [3]
+2024-12-12 16:01:16 [INFO ] Loaded model from out_sleepedf/train\3\best_model.ckpt
+2024-12-12 16:01:16 [INFO ] Subject ID: 3
+2024-12-12 16:01:16 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4031E0.npz ...
+2024-12-12 16:01:16 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4032E0.npz ...
+2024-12-12 16:01:16 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:16 [INFO ] (952, 1, 3000)
+2024-12-12 16:01:16 [INFO ] (911, 1, 3000)
+2024-12-12 16:01:16 [INFO ] W: 276
+2024-12-12 16:01:16 [INFO ] N1: 106
+2024-12-12 16:01:16 [INFO ] N2: 885
+2024-12-12 16:01:16 [INFO ] N3: 188
+2024-12-12 16:01:16 [INFO ] REM: 408
+2024-12-12 16:01:17 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4031E0.npz
+2024-12-12 16:01:17 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4032E0.npz
+2024-12-12 16:01:17 [INFO ] n=1863, acc=69.6, mf1=42.1
+2024-12-12 16:01:17 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:17 [INFO ] [[167   0   1   0 108]
+ [  8   0   8   0  90]
+ [ 65   0 757   0  63]
+ [ 99   0  89   0   0]
+ [ 19   0  16   0 373]]
+2024-12-12 16:01:17 [INFO ] ------------------------
+2024-12-12 16:01:17 [INFO ] 
+2024-12-12 16:01:17 [INFO ] ------ Fold 5/20 ------
+2024-12-12 16:01:17 [INFO ] Test SIDs: (1) [4]
+2024-12-12 16:01:17 [INFO ] Loaded model from out_sleepedf/train\4\best_model.ckpt
+2024-12-12 16:01:17 [INFO ] Subject ID: 4
+2024-12-12 16:01:17 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4041E0.npz ...
+2024-12-12 16:01:17 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4042E0.npz ...
+2024-12-12 16:01:17 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:17 [INFO ] (1235, 1, 3000)
+2024-12-12 16:01:17 [INFO ] (1200, 1, 3000)
+2024-12-12 16:01:17 [INFO ] W: 385
+2024-12-12 16:01:17 [INFO ] N1: 303
+2024-12-12 16:01:17 [INFO ] N2: 1134
+2024-12-12 16:01:17 [INFO ] N3: 147
+2024-12-12 16:01:17 [INFO ] REM: 466
+2024-12-12 16:01:18 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4041E0.npz
+2024-12-12 16:01:19 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4042E0.npz
+2024-12-12 16:01:19 [INFO ] n=2435, acc=66.2, mf1=40.9
+2024-12-12 16:01:19 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:19 [INFO ] [[ 191    0   34    0  160]
+ [  17    0   26    0  260]
+ [   1    0 1018    0  115]
+ [   7    0  140    0    0]
+ [   8    0   55    0  403]]
+2024-12-12 16:01:19 [INFO ] ------------------------
+2024-12-12 16:01:19 [INFO ] 
+2024-12-12 16:01:19 [INFO ] ------ Fold 6/20 ------
+2024-12-12 16:01:19 [INFO ] Test SIDs: (1) [5]
+2024-12-12 16:01:19 [INFO ] Loaded model from out_sleepedf/train\5\best_model.ckpt
+2024-12-12 16:01:19 [INFO ] Subject ID: 5
+2024-12-12 16:01:19 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4051E0.npz ...
+2024-12-12 16:01:19 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4052E0.npz ...
+2024-12-12 16:01:19 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:19 [INFO ] (672, 1, 3000)
+2024-12-12 16:01:19 [INFO ] (1246, 1, 3000)
+2024-12-12 16:01:19 [INFO ] W: 430
+2024-12-12 16:01:19 [INFO ] N1: 158
+2024-12-12 16:01:19 [INFO ] N2: 833
+2024-12-12 16:01:19 [INFO ] N3: 249
+2024-12-12 16:01:19 [INFO ] REM: 248
+2024-12-12 16:01:20 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4051E0.npz
+2024-12-12 16:01:21 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4052E0.npz
+2024-12-12 16:01:21 [INFO ] n=1918, acc=61.1, mf1=40.7
+2024-12-12 16:01:21 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:21 [INFO ] [[210  95   2   0 123]
+ [  2  15  11   0 130]
+ [ 23  16 729   0  65]
+ [158   0  91   0   0]
+ [  2  22   6   0 218]]
+2024-12-12 16:01:21 [INFO ] ------------------------
+2024-12-12 16:01:21 [INFO ] 
+2024-12-12 16:01:21 [INFO ] ------ Fold 7/20 ------
+2024-12-12 16:01:21 [INFO ] Test SIDs: (1) [6]
+2024-12-12 16:01:21 [INFO ] Loaded model from out_sleepedf/train\6\best_model.ckpt
+2024-12-12 16:01:21 [INFO ] Subject ID: 6
+2024-12-12 16:01:21 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4061E0.npz ...
+2024-12-12 16:01:21 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4062E0.npz ...
+2024-12-12 16:01:21 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:21 [INFO ] (843, 1, 3000)
+2024-12-12 16:01:21 [INFO ] (1016, 1, 3000)
+2024-12-12 16:01:21 [INFO ] W: 335
+2024-12-12 16:01:21 [INFO ] N1: 146
+2024-12-12 16:01:21 [INFO ] N2: 824
+2024-12-12 16:01:21 [INFO ] N3: 265
+2024-12-12 16:01:21 [INFO ] REM: 289
+2024-12-12 16:01:21 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4061E0.npz
+2024-12-12 16:01:22 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4062E0.npz
+2024-12-12 16:01:22 [INFO ] n=1859, acc=51.7, mf1=24.3
+2024-12-12 16:01:22 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:22 [INFO ] [[266   0  69   0   0]
+ [ 20   0 126   0   0]
+ [129   0 695   0   0]
+ [264   0   1   0   0]
+ [ 21   0 268   0   0]]
+2024-12-12 16:01:22 [INFO ] ------------------------
+2024-12-12 16:01:22 [INFO ] 
+2024-12-12 16:01:22 [INFO ] ------ Fold 8/20 ------
+2024-12-12 16:01:22 [INFO ] Test SIDs: (1) [7]
+2024-12-12 16:01:22 [INFO ] Loaded model from out_sleepedf/train\7\best_model.ckpt
+2024-12-12 16:01:22 [INFO ] Subject ID: 7
+2024-12-12 16:01:22 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4071E0.npz ...
+2024-12-12 16:01:22 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4072E0.npz ...
+2024-12-12 16:01:22 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:22 [INFO ] (976, 1, 3000)
+2024-12-12 16:01:22 [INFO ] (1273, 1, 3000)
+2024-12-12 16:01:22 [INFO ] W: 531
+2024-12-12 16:01:22 [INFO ] N1: 173
+2024-12-12 16:01:22 [INFO ] N2: 795
+2024-12-12 16:01:22 [INFO ] N3: 384
+2024-12-12 16:01:22 [INFO ] REM: 366
+2024-12-12 16:01:23 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4071E0.npz
+2024-12-12 16:01:24 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4072E0.npz
+2024-12-12 16:01:24 [INFO ] n=2249, acc=59.9, mf1=40.4
+2024-12-12 16:01:24 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:24 [INFO ] [[372   0   1   0 158]
+ [ 14   0   5   0 154]
+ [ 28   0 614   0 153]
+ [312   0  56   0  16]
+ [  1   0   4   0 361]]
+2024-12-12 16:01:24 [INFO ] ------------------------
+2024-12-12 16:01:24 [INFO ] 
+2024-12-12 16:01:24 [INFO ] ------ Fold 9/20 ------
+2024-12-12 16:01:24 [INFO ] Test SIDs: (1) [8]
+2024-12-12 16:01:24 [INFO ] Loaded model from out_sleepedf/train\8\best_model.ckpt
+2024-12-12 16:01:24 [INFO ] Subject ID: 8
+2024-12-12 16:01:24 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4081E0.npz ...
+2024-12-12 16:01:24 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4082E0.npz ...
+2024-12-12 16:01:24 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:24 [INFO ] (1134, 1, 3000)
+2024-12-12 16:01:24 [INFO ] (1054, 1, 3000)
+2024-12-12 16:01:24 [INFO ] W: 467
+2024-12-12 16:01:24 [INFO ] N1: 107
+2024-12-12 16:01:24 [INFO ] N2: 591
+2024-12-12 16:01:24 [INFO ] N3: 632
+2024-12-12 16:01:24 [INFO ] REM: 391
+2024-12-12 16:01:25 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4081E0.npz
+2024-12-12 16:01:26 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4082E0.npz
+2024-12-12 16:01:26 [INFO ] n=2188, acc=41.2, mf1=26.2
+2024-12-12 16:01:26 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:26 [INFO ] [[297   0 107   0  63]
+ [  7   0  63   0  37]
+ [  1   0 590   0   0]
+ [ 18   0 614   0   0]
+ [  3   0 374   0  14]]
+2024-12-12 16:01:26 [INFO ] ------------------------
+2024-12-12 16:01:26 [INFO ] 
+2024-12-12 16:01:26 [INFO ] ------ Fold 10/20 ------
+2024-12-12 16:01:26 [INFO ] Test SIDs: (1) [9]
+2024-12-12 16:01:26 [INFO ] Loaded model from out_sleepedf/train\9\best_model.ckpt
+2024-12-12 16:01:26 [INFO ] Subject ID: 9
+2024-12-12 16:01:26 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4091E0.npz ...
+2024-12-12 16:01:26 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4092E0.npz ...
+2024-12-12 16:01:26 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:26 [INFO ] (1132, 1, 3000)
+2024-12-12 16:01:26 [INFO ] (1207, 1, 3000)
+2024-12-12 16:01:26 [INFO ] W: 392
+2024-12-12 16:01:26 [INFO ] N1: 100
+2024-12-12 16:01:26 [INFO ] N2: 1073
+2024-12-12 16:01:26 [INFO ] N3: 277
+2024-12-12 16:01:26 [INFO ] REM: 497
+2024-12-12 16:01:27 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4091E0.npz
+2024-12-12 16:01:27 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4092E0.npz
+2024-12-12 16:01:27 [INFO ] n=2339, acc=50.0, mf1=23.9
+2024-12-12 16:01:27 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:27 [INFO ] [[303   0  88   0   1]
+ [ 44   0  56   0   0]
+ [216   0 857   0   0]
+ [236   0  41   0   0]
+ [ 68   0 419   0  10]]
+2024-12-12 16:01:27 [INFO ] ------------------------
+2024-12-12 16:01:27 [INFO ] 
+2024-12-12 16:01:27 [INFO ] ------ Fold 11/20 ------
+2024-12-12 16:01:27 [INFO ] Test SIDs: (1) [10]
+2024-12-12 16:01:27 [INFO ] Loaded model from out_sleepedf/train\10\best_model.ckpt
+2024-12-12 16:01:27 [INFO ] Subject ID: 10
+2024-12-12 16:01:27 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4101E0.npz ...
+2024-12-12 16:01:27 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4102E0.npz ...
+2024-12-12 16:01:27 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:27 [INFO ] (1104, 1, 3000)
+2024-12-12 16:01:27 [INFO ] (1092, 1, 3000)
+2024-12-12 16:01:27 [INFO ] W: 299
+2024-12-12 16:01:27 [INFO ] N1: 182
+2024-12-12 16:01:27 [INFO ] N2: 1278
+2024-12-12 16:01:27 [INFO ] N3: 31
+2024-12-12 16:01:27 [INFO ] REM: 406
+2024-12-12 16:01:28 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4101E0.npz
+2024-12-12 16:01:29 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4102E0.npz
+2024-12-12 16:01:29 [INFO ] n=2196, acc=69.7, mf1=33.3
+2024-12-12 16:01:29 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:29 [INFO ] [[  48    0  120    0  131]
+ [   0    0   88    0   94]
+ [   1    0 1232    0   45]
+ [   0    0   31    0    0]
+ [   0    0  156    0  250]]
+2024-12-12 16:01:29 [INFO ] ------------------------
+2024-12-12 16:01:29 [INFO ] 
+2024-12-12 16:01:29 [INFO ] ------ Fold 12/20 ------
+2024-12-12 16:01:29 [INFO ] Test SIDs: (1) [11]
+2024-12-12 16:01:29 [INFO ] Loaded model from out_sleepedf/train\11\best_model.ckpt
+2024-12-12 16:01:29 [INFO ] Subject ID: 11
+2024-12-12 16:01:29 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4111E0.npz ...
+2024-12-12 16:01:29 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4112E0.npz ...
+2024-12-12 16:01:29 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:29 [INFO ] (928, 1, 3000)
+2024-12-12 16:01:29 [INFO ] (802, 1, 3000)
+2024-12-12 16:01:29 [INFO ] W: 252
+2024-12-12 16:01:29 [INFO ] N1: 31
+2024-12-12 16:01:29 [INFO ] N2: 898
+2024-12-12 16:01:29 [INFO ] N3: 240
+2024-12-12 16:01:29 [INFO ] REM: 309
+2024-12-12 16:01:30 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4111E0.npz
+2024-12-12 16:01:31 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4112E0.npz
+2024-12-12 16:01:31 [INFO ] n=1730, acc=39.5, mf1=26.9
+2024-12-12 16:01:31 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:31 [INFO ] [[ 97  35  95   0  25]
+ [  0   3   9   0  19]
+ [270 147 446   0  35]
+ [ 82  14 144   0   0]
+ [ 92  66  13   0 138]]
+2024-12-12 16:01:31 [INFO ] ------------------------
+2024-12-12 16:01:31 [INFO ] 
+2024-12-12 16:01:31 [INFO ] ------ Fold 13/20 ------
+2024-12-12 16:01:31 [INFO ] Test SIDs: (1) [12]
+2024-12-12 16:01:31 [INFO ] Loaded model from out_sleepedf/train\12\best_model.ckpt
+2024-12-12 16:01:31 [INFO ] Subject ID: 12
+2024-12-12 16:01:31 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4121E0.npz ...
+2024-12-12 16:01:31 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4122E0.npz ...
+2024-12-12 16:01:31 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:31 [INFO ] (1783, 1, 3000)
+2024-12-12 16:01:31 [INFO ] (977, 1, 3000)
+2024-12-12 16:01:31 [INFO ] W: 1197
+2024-12-12 16:01:31 [INFO ] N1: 169
+2024-12-12 16:01:31 [INFO ] N2: 750
+2024-12-12 16:01:31 [INFO ] N3: 187
+2024-12-12 16:01:31 [INFO ] REM: 457
+2024-12-12 16:01:32 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4121E0.npz
+2024-12-12 16:01:33 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4122E0.npz
+2024-12-12 16:01:33 [INFO ] n=2760, acc=43.6, mf1=25.6
+2024-12-12 16:01:33 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:33 [INFO ] [[276   6 423   0 492]
+ [  0   0 140   0  29]
+ [  0   0 739   0  11]
+ [  4   0 183   0   0]
+ [  2   1 267   0 187]]
+2024-12-12 16:01:33 [INFO ] ------------------------
+2024-12-12 16:01:33 [INFO ] 
+2024-12-12 16:01:33 [INFO ] ------ Fold 14/20 ------
+2024-12-12 16:01:33 [INFO ] Test SIDs: (1) [13]
+2024-12-12 16:01:33 [INFO ] Loaded model from out_sleepedf/train\13\best_model.ckpt
+2024-12-12 16:01:33 [INFO ] Subject ID: 13
+2024-12-12 16:01:33 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4131E0.npz ...
+2024-12-12 16:01:33 [INFO ] Test set (n_night_sleeps=1)
+2024-12-12 16:01:33 [INFO ] (1028, 1, 3000)
+2024-12-12 16:01:33 [INFO ] W: 155
+2024-12-12 16:01:33 [INFO ] N1: 57
+2024-12-12 16:01:33 [INFO ] N2: 497
+2024-12-12 16:01:33 [INFO ] N3: 147
+2024-12-12 16:01:33 [INFO ] REM: 172
+2024-12-12 16:01:34 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4131E0.npz
+2024-12-12 16:01:34 [INFO ] n=1028, acc=80.4, mf1=66.3
+2024-12-12 16:01:34 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:34 [INFO ] [[128   0   0   0  27]
+ [  3   0   3   0  51]
+ [  5   0 405  11  76]
+ [  0   0  22 125   0]
+ [  0   0   3   0 169]]
+2024-12-12 16:01:34 [INFO ] ------------------------
+2024-12-12 16:01:34 [INFO ] 
+2024-12-12 16:01:34 [INFO ] ------ Fold 15/20 ------
+2024-12-12 16:01:34 [INFO ] Test SIDs: (1) [14]
+2024-12-12 16:01:34 [INFO ] Loaded model from out_sleepedf/train\14\best_model.ckpt
+2024-12-12 16:01:34 [INFO ] Subject ID: 14
+2024-12-12 16:01:34 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4141E0.npz ...
+2024-12-12 16:01:34 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4142E0.npz ...
+2024-12-12 16:01:34 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:34 [INFO ] (1004, 1, 3000)
+2024-12-12 16:01:34 [INFO ] (952, 1, 3000)
+2024-12-12 16:01:34 [INFO ] W: 368
+2024-12-12 16:01:34 [INFO ] N1: 56
+2024-12-12 16:01:34 [INFO ] N2: 790
+2024-12-12 16:01:34 [INFO ] N3: 296
+2024-12-12 16:01:34 [INFO ] REM: 446
+2024-12-12 16:01:34 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4141E0.npz
+2024-12-12 16:01:35 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4142E0.npz
+2024-12-12 16:01:35 [INFO ] n=1956, acc=60.5, mf1=38.1
+2024-12-12 16:01:35 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:35 [INFO ] [[170   0  33   0 165]
+ [  0   0  29   0  27]
+ [  0   0 779   0  11]
+ [  3   0 289   3   1]
+ [  0   0 214   0 232]]
+2024-12-12 16:01:35 [INFO ] ------------------------
+2024-12-12 16:01:35 [INFO ] 
+2024-12-12 16:01:35 [INFO ] ------ Fold 16/20 ------
+2024-12-12 16:01:35 [INFO ] Test SIDs: (1) [15]
+2024-12-12 16:01:35 [INFO ] Loaded model from out_sleepedf/train\15\best_model.ckpt
+2024-12-12 16:01:35 [INFO ] Subject ID: 15
+2024-12-12 16:01:35 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4151E0.npz ...
+2024-12-12 16:01:35 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4152E0.npz ...
+2024-12-12 16:01:35 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:35 [INFO ] (952, 1, 3000)
+2024-12-12 16:01:35 [INFO ] (1762, 1, 3000)
+2024-12-12 16:01:35 [INFO ] W: 979
+2024-12-12 16:01:35 [INFO ] N1: 88
+2024-12-12 16:01:35 [INFO ] N2: 792
+2024-12-12 16:01:35 [INFO ] N3: 355
+2024-12-12 16:01:35 [INFO ] REM: 500
+2024-12-12 16:01:36 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4151E0.npz
+2024-12-12 16:01:37 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4152E0.npz
+2024-12-12 16:01:37 [INFO ] n=2714, acc=54.1, mf1=39.5
+2024-12-12 16:01:37 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:37 [INFO ] [[435   0  16   0 528]
+ [  1   0  38   0  49]
+ [  0   0 782   0  10]
+ [  4   0 253  90   8]
+ [  1   0 339   0 160]]
+2024-12-12 16:01:37 [INFO ] ------------------------
+2024-12-12 16:01:37 [INFO ] 
+2024-12-12 16:01:37 [INFO ] ------ Fold 17/20 ------
+2024-12-12 16:01:37 [INFO ] Test SIDs: (1) [16]
+2024-12-12 16:01:37 [INFO ] Loaded model from out_sleepedf/train\16\best_model.ckpt
+2024-12-12 16:01:37 [INFO ] Subject ID: 16
+2024-12-12 16:01:37 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4161E0.npz ...
+2024-12-12 16:01:37 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4162E0.npz ...
+2024-12-12 16:01:37 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:37 [INFO ] (1144, 1, 3000)
+2024-12-12 16:01:37 [INFO ] (1003, 1, 3000)
+2024-12-12 16:01:37 [INFO ] W: 395
+2024-12-12 16:01:37 [INFO ] N1: 97
+2024-12-12 16:01:37 [INFO ] N2: 907
+2024-12-12 16:01:37 [INFO ] N3: 293
+2024-12-12 16:01:37 [INFO ] REM: 455
+2024-12-12 16:01:38 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4161E0.npz
+2024-12-12 16:01:39 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4162E0.npz
+2024-12-12 16:01:39 [INFO ] n=2147, acc=56.0, mf1=37.1
+2024-12-12 16:01:39 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:39 [INFO ] [[115   0 177  38  65]
+ [  5   0  72   0  20]
+ [  3   0 892   1  11]
+ [  1   0 210  82   0]
+ [ 18   0 323   1 113]]
+2024-12-12 16:01:39 [INFO ] ------------------------
+2024-12-12 16:01:39 [INFO ] 
+2024-12-12 16:01:39 [INFO ] ------ Fold 18/20 ------
+2024-12-12 16:01:39 [INFO ] Test SIDs: (1) [17]
+2024-12-12 16:01:39 [INFO ] Loaded model from out_sleepedf/train\17\best_model.ckpt
+2024-12-12 16:01:39 [INFO ] Subject ID: 17
+2024-12-12 16:01:39 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4171E0.npz ...
+2024-12-12 16:01:39 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4172E0.npz ...
+2024-12-12 16:01:39 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:39 [INFO ] (1002, 1, 3000)
+2024-12-12 16:01:39 [INFO ] (1773, 1, 3000)
+2024-12-12 16:01:39 [INFO ] W: 865
+2024-12-12 16:01:39 [INFO ] N1: 65
+2024-12-12 16:01:39 [INFO ] N2: 1015
+2024-12-12 16:01:39 [INFO ] N3: 403
+2024-12-12 16:01:39 [INFO ] REM: 427
+2024-12-12 16:01:40 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4171E0.npz
+2024-12-12 16:01:41 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4172E0.npz
+2024-12-12 16:01:41 [INFO ] n=2775, acc=45.3, mf1=24.5
+2024-12-12 16:01:41 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:41 [INFO ] [[141   0 146   0 578]
+ [  0   0  33   0  32]
+ [ 20   0 948   0  47]
+ [163   0 236   0   4]
+ [  5   0 253   0 169]]
+2024-12-12 16:01:41 [INFO ] ------------------------
+2024-12-12 16:01:41 [INFO ] 
+2024-12-12 16:01:41 [INFO ] ------ Fold 19/20 ------
+2024-12-12 16:01:41 [INFO ] Test SIDs: (1) [18]
+2024-12-12 16:01:41 [INFO ] Loaded model from out_sleepedf/train\18\best_model.ckpt
+2024-12-12 16:01:41 [INFO ] Subject ID: 18
+2024-12-12 16:01:41 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4181E0.npz ...
+2024-12-12 16:01:41 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4182E0.npz ...
+2024-12-12 16:01:41 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:41 [INFO ] (964, 1, 3000)
+2024-12-12 16:01:41 [INFO ] (920, 1, 3000)
+2024-12-12 16:01:41 [INFO ] W: 285
+2024-12-12 16:01:41 [INFO ] N1: 180
+2024-12-12 16:01:41 [INFO ] N2: 678
+2024-12-12 16:01:41 [INFO ] N3: 507
+2024-12-12 16:01:41 [INFO ] REM: 234
+2024-12-12 16:01:42 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4181E0.npz
+2024-12-12 16:01:42 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4182E0.npz
+2024-12-12 16:01:42 [INFO ] n=1884, acc=33.5, mf1=26.2
+2024-12-12 16:01:42 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:42 [INFO ] [[263   0   1   0  21]
+ [ 20   0  35   0 125]
+ [394   0 196   0  88]
+ [507   0   0   0   0]
+ [ 48   0  14   0 172]]
+2024-12-12 16:01:42 [INFO ] ------------------------
+2024-12-12 16:01:42 [INFO ] 
+2024-12-12 16:01:42 [INFO ] ------ Fold 20/20 ------
+2024-12-12 16:01:42 [INFO ] Test SIDs: (1) [19]
+2024-12-12 16:01:42 [INFO ] Loaded model from out_sleepedf/train\19\best_model.ckpt
+2024-12-12 16:01:42 [INFO ] Subject ID: 19
+2024-12-12 16:01:42 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4191E0.npz ...
+2024-12-12 16:01:42 [INFO ] Load files ./data/sleepedf/sleep-cassette/eeg_fpz_cz\SC4192E0.npz ...
+2024-12-12 16:01:43 [INFO ] Test set (n_night_sleeps=2)
+2024-12-12 16:01:43 [INFO ] (1535, 1, 3000)
+2024-12-12 16:01:43 [INFO ] (1274, 1, 3000)
+2024-12-12 16:01:43 [INFO ] W: 564
+2024-12-12 16:01:43 [INFO ] N1: 190
+2024-12-12 16:01:43 [INFO ] N2: 1267
+2024-12-12 16:01:43 [INFO ] N3: 170
+2024-12-12 16:01:43 [INFO ] REM: 618
+2024-12-12 16:01:44 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4191E0.npz
+2024-12-12 16:01:45 [INFO ] Saved outputs to out_sleepedf/predict\pred_SC4192E0.npz
+2024-12-12 16:01:45 [INFO ] n=2809, acc=49.4, mf1=20.5
+2024-12-12 16:01:45 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:45 [INFO ] [[ 114    0  377    0   73]
+ [   1    0  164    0   25]
+ [   1    0 1262    0    4]
+ [   0    0  170    0    0]
+ [   0    0  606    0   12]]
+2024-12-12 16:01:45 [INFO ] ------------------------
+2024-12-12 16:01:45 [INFO ] 
+2024-12-12 16:01:45 [INFO ] 
+2024-12-12 16:01:45 [INFO ] === Overall ===
+2024-12-12 16:01:45 [INFO ] W: 10197
+2024-12-12 16:01:45 [INFO ] N1: 2804
+2024-12-12 16:01:45 [INFO ] N2: 17799
+2024-12-12 16:01:45 [INFO ] N3: 5703
+2024-12-12 16:01:45 [INFO ] REM: 7717
+2024-12-12 16:01:45 [INFO ] n=44220, acc=55.3, mf1=37.5
+2024-12-12 16:01:45 [INFO ] >> Confusion Matrix
+2024-12-12 16:01:45 [INFO ] [[ 5344   136  1788    38  2891]
+ [  264    18  1077     0  1445]
+ [ 1783   163 14938    19   896]
+ [ 2296    14  2726   638    29]
+ [  372    89  3722     1  3533]]
+2024-12-12 16:01:45 [INFO ] Total: 44220
+2024-12-12 16:01:45 [INFO ] Number of samples from each class: [10197.  2804. 17799.  5703.  7717.]
+2024-12-12 16:01:45 [INFO ] Accuracy: 55.3
+2024-12-12 16:01:45 [INFO ] Macro F1-Score: 37.5
+2024-12-12 16:01:45 [INFO ] Per-class Precision: 53.1 4.3 61.6 91.7 40.2
+2024-12-12 16:01:45 [INFO ] Per-class Recall: 52.4 0.6 83.9 11.2 45.8
+2024-12-12 16:01:45 [INFO ] Per-class F1-Score: 52.8 1.1 71.0 19.9 42.8
+2024-12-12 16:01:45 [INFO ] Saved summary to out_sleepedf/predict\sleepedf.npz
